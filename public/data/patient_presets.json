@@ -1,0 +1,622 @@
+[
+  {
+    "id": "preset_3",
+    "name": "Normal Healthy Athlete (Low Risk)",
+    "description": "Clean coronary vessels, normal ejection fraction, no regional wall motion abnormality.",
+    "features": {
+      "Age": 66.0,
+      "Weight": 67.0,
+      "Length": 158.0,
+      "Sex": 0.0,
+      "BMI": 26.83864765261977,
+      "DM": 0.0,
+      "HTN": 1.0,
+      "Current Smoker": 0.0,
+      "EX-Smoker": 0.0,
+      "FH": 0.0,
+      "Obesity": 1.0,
+      "CRF": 0.0,
+      "CVA": 0.0,
+      "Airway disease": 0.0,
+      "Thyroid Disease": 0.0,
+      "CHF": 0.0,
+      "DLP": 0.0,
+      "BP": 100.0,
+      "PR": 80.0,
+      "Edema": 0.0,
+      "Weak Peripheral Pulse": 0.0,
+      "Lung rales": 0.0,
+      "Systolic Murmur": 0.0,
+      "Diastolic Murmur": 1.0,
+      "Typical Chest Pain": 0.0,
+      "Dyspnea": 1.0,
+      "Function Class": 3.0,
+      "Atypical": 0.0,
+      "Nonanginal": 1.0,
+      "Exertional CP": 0.0,
+      "LowTH Ang": 0.0,
+      "Q Wave": 0.0,
+      "St Elevation": 0.0,
+      "St Depression": 1.0,
+      "Tinversion": 0.0,
+      "LVH": 0.0,
+      "Poor R Progression": 0.0,
+      "BBB": 0.0,
+      "FBS": 78.0,
+      "CR": 1.2,
+      "TG": 63.0,
+      "LDL": 55.0,
+      "HDL": 27.0,
+      "BUN": 30.0,
+      "ESR": 76.0,
+      "HB": 12.1,
+      "K": 4.4,
+      "Na": 142.0,
+      "WBC": 13000.0,
+      "Lymph": 18.0,
+      "Neut": 72.0,
+      "PLT": 742.0,
+      "EF-TTE": 55.0,
+      "Region RWMA": 0.0,
+      "VHD": 3.0
+    },
+    "ground_truth": {
+      "cad": 0,
+      "lad": 0,
+      "lcx": 0,
+      "rca": 0
+    },
+    "initial_prediction": {
+      "cad_prob": 0.0747,
+      "lad_prob": 0.1918,
+      "lcx_prob": 0.094,
+      "rca_prob": 0.1264
+    },
+    "top_shap_factors": [
+      {
+        "feature": "Typical Chest Pain",
+        "value": 0.0,
+        "shap_impact": -1.4084,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "Nonanginal",
+        "value": 1.0,
+        "shap_impact": -1.273,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "TG",
+        "value": 63.0,
+        "shap_impact": -1.1206,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "Age",
+        "value": 66.0,
+        "shap_impact": 0.7256,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "BP",
+        "value": 100.0,
+        "shap_impact": -0.6579,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "EF-TTE",
+        "value": 55.0,
+        "shap_impact": -0.5882,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "ESR",
+        "value": 76.0,
+        "shap_impact": 0.5088,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "Region RWMA",
+        "value": 0.0,
+        "shap_impact": -0.3548,
+        "direction": "Protective Factor"
+      }
+    ]
+  },
+  {
+    "id": "preset_2",
+    "name": "Isolated LAD Stenosis (Anterior Ischemia)",
+    "description": "Severe stenosis isolated to LAD (widowmaker territory), ST elevation present.",
+    "features": {
+      "Age": 54.0,
+      "Weight": 54.0,
+      "Length": 164.0,
+      "Sex": 1.0,
+      "BMI": 20.077334919690664,
+      "DM": 0.0,
+      "HTN": 0.0,
+      "Current Smoker": 1.0,
+      "EX-Smoker": 0.0,
+      "FH": 0.0,
+      "Obesity": 0.0,
+      "CRF": 0.0,
+      "CVA": 0.0,
+      "Airway disease": 0.0,
+      "Thyroid Disease": 0.0,
+      "CHF": 0.0,
+      "DLP": 0.0,
+      "BP": 100.0,
+      "PR": 100.0,
+      "Edema": 0.0,
+      "Weak Peripheral Pulse": 0.0,
+      "Lung rales": 0.0,
+      "Systolic Murmur": 0.0,
+      "Diastolic Murmur": 0.0,
+      "Typical Chest Pain": 1.0,
+      "Dyspnea": 0.0,
+      "Function Class": 0.0,
+      "Atypical": 0.0,
+      "Nonanginal": 0.0,
+      "Exertional CP": 0.0,
+      "LowTH Ang": 0.0,
+      "Q Wave": 0.0,
+      "St Elevation": 0.0,
+      "St Depression": 0.0,
+      "Tinversion": 0.0,
+      "LVH": 0.0,
+      "Poor R Progression": 0.0,
+      "BBB": 0.0,
+      "FBS": 85.0,
+      "CR": 1.0,
+      "TG": 103.0,
+      "LDL": 70.0,
+      "HDL": 45.0,
+      "BUN": 17.0,
+      "ESR": 10.0,
+      "HB": 13.5,
+      "K": 4.7,
+      "Na": 139.0,
+      "WBC": 7400.0,
+      "Lymph": 38.0,
+      "Neut": 60.0,
+      "PLT": 230.0,
+      "EF-TTE": 40.0,
+      "Region RWMA": 2.0,
+      "VHD": 1.0
+    },
+    "ground_truth": {
+      "cad": 1,
+      "lad": 1,
+      "lcx": 0,
+      "rca": 0
+    },
+    "initial_prediction": {
+      "cad_prob": 0.9871,
+      "lad_prob": 0.955,
+      "lcx_prob": 0.0727,
+      "rca_prob": 0.1319
+    },
+    "top_shap_factors": [
+      {
+        "feature": "Typical Chest Pain",
+        "value": 1.0,
+        "shap_impact": 1.5141,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "Region RWMA",
+        "value": 2.0,
+        "shap_impact": 1.033,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "BP",
+        "value": 100.0,
+        "shap_impact": -0.2807,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "EF-TTE",
+        "value": 40.0,
+        "shap_impact": 0.2535,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "HTN",
+        "value": 0.0,
+        "shap_impact": -0.2376,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "FBS",
+        "value": 85.0,
+        "shap_impact": -0.193,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "Tinversion",
+        "value": 0.0,
+        "shap_impact": -0.1594,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "PR",
+        "value": 100.0,
+        "shap_impact": 0.1479,
+        "direction": "Risk Promoter"
+      }
+    ]
+  },
+  {
+    "id": "preset_5",
+    "name": "Triple-Vessel Critical CAD",
+    "description": "Extensive multi-vessel CAD across LAD, LCX, and RCA with diabetic dyslipidemia.",
+    "features": {
+      "Age": 50.0,
+      "Weight": 75.0,
+      "Length": 175.0,
+      "Sex": 1.0,
+      "BMI": 24.489795918367346,
+      "DM": 0.0,
+      "HTN": 0.0,
+      "Current Smoker": 1.0,
+      "EX-Smoker": 0.0,
+      "FH": 0.0,
+      "Obesity": 0.0,
+      "CRF": 0.0,
+      "CVA": 0.0,
+      "Airway disease": 0.0,
+      "Thyroid Disease": 0.0,
+      "CHF": 0.0,
+      "DLP": 0.0,
+      "BP": 118.0,
+      "PR": 70.0,
+      "Edema": 0.0,
+      "Weak Peripheral Pulse": 0.0,
+      "Lung rales": 0.0,
+      "Systolic Murmur": 0.0,
+      "Diastolic Murmur": 0.0,
+      "Typical Chest Pain": 1.0,
+      "Dyspnea": 0.0,
+      "Function Class": 3.0,
+      "Atypical": 0.0,
+      "Nonanginal": 0.0,
+      "Exertional CP": 0.0,
+      "LowTH Ang": 0.0,
+      "Q Wave": 0.0,
+      "St Elevation": 0.0,
+      "St Depression": 0.0,
+      "Tinversion": 0.0,
+      "LVH": 0.0,
+      "Poor R Progression": 0.0,
+      "BBB": 0.0,
+      "FBS": 86.0,
+      "CR": 1.0,
+      "TG": 139.0,
+      "LDL": 119.0,
+      "HDL": 34.0,
+      "BUN": 13.0,
+      "ESR": 18.0,
+      "HB": 15.6,
+      "K": 4.2,
+      "Na": 141.0,
+      "WBC": 7300.0,
+      "Lymph": 26.0,
+      "Neut": 66.0,
+      "PLT": 194.0,
+      "EF-TTE": 50.0,
+      "Region RWMA": 0.0,
+      "VHD": 0.0
+    },
+    "ground_truth": {
+      "cad": 1,
+      "lad": 1,
+      "lcx": 1,
+      "rca": 1
+    },
+    "initial_prediction": {
+      "cad_prob": 0.9828,
+      "lad_prob": 0.8092,
+      "lcx_prob": 0.8238,
+      "rca_prob": 0.887
+    },
+    "top_shap_factors": [
+      {
+        "feature": "Typical Chest Pain",
+        "value": 1.0,
+        "shap_impact": 1.7442,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "EF-TTE",
+        "value": 50.0,
+        "shap_impact": 0.5758,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "VHD",
+        "value": 0.0,
+        "shap_impact": 0.3432,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "Age",
+        "value": 50.0,
+        "shap_impact": -0.3266,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "Region RWMA",
+        "value": 0.0,
+        "shap_impact": -0.2972,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "HTN",
+        "value": 0.0,
+        "shap_impact": -0.2735,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "Tinversion",
+        "value": 0.0,
+        "shap_impact": -0.2476,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "FBS",
+        "value": 86.0,
+        "shap_impact": -0.229,
+        "direction": "Protective Factor"
+      }
+    ]
+  },
+  {
+    "id": "preset_27",
+    "name": "RCA Stenosis (Inferior Wall Deficit)",
+    "description": "Significant narrowing in Right Coronary Artery supplying inferior myocardium.",
+    "features": {
+      "Age": 50.0,
+      "Weight": 81.0,
+      "Length": 165.0,
+      "Sex": 1.0,
+      "BMI": 29.752066115702483,
+      "DM": 0.0,
+      "HTN": 1.0,
+      "Current Smoker": 0.0,
+      "EX-Smoker": 0.0,
+      "FH": 0.0,
+      "Obesity": 1.0,
+      "CRF": 0.0,
+      "CVA": 0.0,
+      "Airway disease": 0.0,
+      "Thyroid Disease": 0.0,
+      "CHF": 0.0,
+      "DLP": 1.0,
+      "BP": 110.0,
+      "PR": 80.0,
+      "Edema": 0.0,
+      "Weak Peripheral Pulse": 0.0,
+      "Lung rales": 0.0,
+      "Systolic Murmur": 0.0,
+      "Diastolic Murmur": 0.0,
+      "Typical Chest Pain": 0.0,
+      "Dyspnea": 0.0,
+      "Function Class": 0.0,
+      "Atypical": 1.0,
+      "Nonanginal": 0.0,
+      "Exertional CP": 0.0,
+      "LowTH Ang": 0.0,
+      "Q Wave": 0.0,
+      "St Elevation": 0.0,
+      "St Depression": 0.0,
+      "Tinversion": 0.0,
+      "LVH": 0.0,
+      "Poor R Progression": 0.0,
+      "BBB": 0.0,
+      "FBS": 71.0,
+      "CR": 0.7,
+      "TG": 340.0,
+      "LDL": 163.0,
+      "HDL": 46.0,
+      "BUN": 10.0,
+      "ESR": 8.0,
+      "HB": 14.9,
+      "K": 4.5,
+      "Na": 144.0,
+      "WBC": 6900.0,
+      "Lymph": 22.0,
+      "Neut": 70.0,
+      "PLT": 245.0,
+      "EF-TTE": 50.0,
+      "Region RWMA": 0.0,
+      "VHD": 0.0
+    },
+    "ground_truth": {
+      "cad": 1,
+      "lad": 0,
+      "lcx": 0,
+      "rca": 1
+    },
+    "initial_prediction": {
+      "cad_prob": 0.8544,
+      "lad_prob": 0.1706,
+      "lcx_prob": 0.0386,
+      "rca_prob": 0.9022
+    },
+    "top_shap_factors": [
+      {
+        "feature": "Typical Chest Pain",
+        "value": 0.0,
+        "shap_impact": -1.9014,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "TG",
+        "value": 340.0,
+        "shap_impact": 0.7929,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "EF-TTE",
+        "value": 50.0,
+        "shap_impact": 0.6185,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "Age",
+        "value": 50.0,
+        "shap_impact": -0.539,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "VHD",
+        "value": 0.0,
+        "shap_impact": 0.4335,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "BMI",
+        "value": 29.752066115702483,
+        "shap_impact": 0.427,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "Region RWMA",
+        "value": 0.0,
+        "shap_impact": -0.3872,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "HTN",
+        "value": 1.0,
+        "shap_impact": 0.3108,
+        "direction": "Risk Promoter"
+      }
+    ]
+  },
+  {
+    "id": "preset_153",
+    "name": "Metabolic Syndrome (Borderline Risk)",
+    "description": "Older patient with diabetes and hypertension, borderline coronary risk.",
+    "features": {
+      "Age": 63.0,
+      "Weight": 64.0,
+      "Length": 160.0,
+      "Sex": 0.0,
+      "BMI": 24.999999999999996,
+      "DM": 1.0,
+      "HTN": 1.0,
+      "Current Smoker": 0.0,
+      "EX-Smoker": 0.0,
+      "FH": 0.0,
+      "Obesity": 1.0,
+      "CRF": 0.0,
+      "CVA": 0.0,
+      "Airway disease": 0.0,
+      "Thyroid Disease": 0.0,
+      "CHF": 0.0,
+      "DLP": 1.0,
+      "BP": 140.0,
+      "PR": 70.0,
+      "Edema": 0.0,
+      "Weak Peripheral Pulse": 0.0,
+      "Lung rales": 0.0,
+      "Systolic Murmur": 0.0,
+      "Diastolic Murmur": 0.0,
+      "Typical Chest Pain": 0.0,
+      "Dyspnea": 1.0,
+      "Function Class": 2.0,
+      "Atypical": 1.0,
+      "Nonanginal": 0.0,
+      "Exertional CP": 0.0,
+      "LowTH Ang": 0.0,
+      "Q Wave": 0.0,
+      "St Elevation": 0.0,
+      "St Depression": 0.0,
+      "Tinversion": 0.0,
+      "LVH": 0.0,
+      "Poor R Progression": 0.0,
+      "BBB": 0.0,
+      "FBS": 156.0,
+      "CR": 1.2,
+      "TG": 116.0,
+      "LDL": 92.0,
+      "HDL": 33.0,
+      "BUN": 18.0,
+      "ESR": 9.0,
+      "HB": 12.4,
+      "K": 4.4,
+      "Na": 142.0,
+      "WBC": 6800.0,
+      "Lymph": 32.0,
+      "Neut": 58.0,
+      "PLT": 240.0,
+      "EF-TTE": 55.0,
+      "Region RWMA": 0.0,
+      "VHD": 1.0
+    },
+    "ground_truth": {
+      "cad": 0,
+      "lad": 0,
+      "lcx": 0,
+      "rca": 0
+    },
+    "initial_prediction": {
+      "cad_prob": 0.2476,
+      "lad_prob": 0.2158,
+      "lcx_prob": 0.0835,
+      "rca_prob": 0.1461
+    },
+    "top_shap_factors": [
+      {
+        "feature": "Typical Chest Pain",
+        "value": 0.0,
+        "shap_impact": -2.0093,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "EF-TTE",
+        "value": 55.0,
+        "shap_impact": -0.8902,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "Age",
+        "value": 63.0,
+        "shap_impact": 0.5776,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "Region RWMA",
+        "value": 0.0,
+        "shap_impact": -0.3791,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "HTN",
+        "value": 1.0,
+        "shap_impact": 0.3685,
+        "direction": "Risk Promoter"
+      },
+      {
+        "feature": "TG",
+        "value": 116.0,
+        "shap_impact": -0.3406,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "ESR",
+        "value": 9.0,
+        "shap_impact": -0.3017,
+        "direction": "Protective Factor"
+      },
+      {
+        "feature": "FBS",
+        "value": 156.0,
+        "shap_impact": 0.1941,
+        "direction": "Risk Promoter"
+      }
+    ]
+  }
+]

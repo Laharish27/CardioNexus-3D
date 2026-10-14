@@ -1,0 +1,606 @@
+{
+  "Age": {
+    "min": 30.0,
+    "max": 86.0,
+    "mean": 58.9,
+    "median": 58.0,
+    "std": 10.39,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "Weight": {
+    "min": 48.0,
+    "max": 120.0,
+    "mean": 73.83,
+    "median": 74.0,
+    "std": 11.99,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "Length": {
+    "min": 140.0,
+    "max": 188.0,
+    "mean": 164.72,
+    "median": 165.0,
+    "std": 9.33,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "Sex": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.58,
+    "median": 1.0,
+    "std": 0.49,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "BMI": {
+    "min": 18.115412710007302,
+    "max": 40.90065778377467,
+    "mean": 27.25,
+    "median": 26.78,
+    "std": 4.1,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "DM": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.3,
+    "median": 0.0,
+    "std": 0.46,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "HTN": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.59,
+    "median": 1.0,
+    "std": 0.49,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Current Smoker": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.21,
+    "median": 0.0,
+    "std": 0.41,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "EX-Smoker": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.03,
+    "median": 0.0,
+    "std": 0.18,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "FH": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.16,
+    "median": 0.0,
+    "std": 0.37,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Obesity": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.7,
+    "median": 1.0,
+    "std": 0.46,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "CRF": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.02,
+    "median": 0.0,
+    "std": 0.14,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "CVA": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.02,
+    "median": 0.0,
+    "std": 0.13,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Airway disease": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.04,
+    "median": 0.0,
+    "std": 0.19,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Thyroid Disease": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.02,
+    "median": 0.0,
+    "std": 0.15,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "CHF": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "std": 0.06,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "DLP": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.37,
+    "median": 0.0,
+    "std": 0.48,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "BP": {
+    "min": 90.0,
+    "max": 190.0,
+    "mean": 129.55,
+    "median": 130.0,
+    "std": 18.94,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "PR": {
+    "min": 50.0,
+    "max": 110.0,
+    "mean": 75.14,
+    "median": 70.0,
+    "std": 8.91,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "Edema": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.04,
+    "median": 0.0,
+    "std": 0.2,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Weak Peripheral Pulse": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.02,
+    "median": 0.0,
+    "std": 0.13,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Lung rales": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.04,
+    "median": 0.0,
+    "std": 0.19,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Systolic Murmur": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.14,
+    "median": 0.0,
+    "std": 0.34,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Diastolic Murmur": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.03,
+    "median": 0.0,
+    "std": 0.17,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Typical Chest Pain": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.54,
+    "median": 1.0,
+    "std": 0.5,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Dyspnea": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.44,
+    "median": 0.0,
+    "std": 0.5,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Function Class": {
+    "min": 0.0,
+    "max": 3.0,
+    "mean": 0.66,
+    "median": 0.0,
+    "std": 1.03,
+    "is_binary": false,
+    "unique_vals": [
+      0.0,
+      1.0,
+      2.0,
+      3.0
+    ]
+  },
+  "Atypical": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.31,
+    "median": 0.0,
+    "std": 0.46,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Nonanginal": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.05,
+    "median": 0.0,
+    "std": 0.22,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Exertional CP": {
+    "min": 0.0,
+    "max": 0.0,
+    "mean": 0.0,
+    "median": 0.0,
+    "std": 0.0,
+    "is_binary": true,
+    "unique_vals": [
+      0.0
+    ]
+  },
+  "LowTH Ang": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.01,
+    "median": 0.0,
+    "std": 0.08,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Q Wave": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.05,
+    "median": 0.0,
+    "std": 0.22,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "St Elevation": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.05,
+    "median": 0.0,
+    "std": 0.21,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "St Depression": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.23,
+    "median": 0.0,
+    "std": 0.42,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Tinversion": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.3,
+    "median": 0.0,
+    "std": 0.46,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "LVH": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.07,
+    "median": 0.0,
+    "std": 0.25,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "Poor R Progression": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.03,
+    "median": 0.0,
+    "std": 0.17,
+    "is_binary": true,
+    "unique_vals": [
+      0.0,
+      1.0
+    ]
+  },
+  "BBB": {
+    "min": 0.0,
+    "max": 2.0,
+    "mean": 0.1,
+    "median": 0.0,
+    "std": 0.37,
+    "is_binary": false,
+    "unique_vals": [
+      0.0,
+      1.0,
+      2.0
+    ]
+  },
+  "FBS": {
+    "min": 62.0,
+    "max": 400.0,
+    "mean": 119.18,
+    "median": 98.0,
+    "std": 52.08,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "CR": {
+    "min": 0.5,
+    "max": 2.2,
+    "mean": 1.06,
+    "median": 1.0,
+    "std": 0.26,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "TG": {
+    "min": 37.0,
+    "max": 1050.0,
+    "mean": 150.34,
+    "median": 122.0,
+    "std": 97.96,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "LDL": {
+    "min": 18.0,
+    "max": 232.0,
+    "mean": 104.64,
+    "median": 100.0,
+    "std": 35.4,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "HDL": {
+    "min": 15.9,
+    "max": 111.0,
+    "mean": 40.23,
+    "median": 39.0,
+    "std": 10.56,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "BUN": {
+    "min": 6.0,
+    "max": 52.0,
+    "mean": 17.5,
+    "median": 16.0,
+    "std": 6.96,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "ESR": {
+    "min": 1.0,
+    "max": 90.0,
+    "mean": 19.46,
+    "median": 15.0,
+    "std": 15.94,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "HB": {
+    "min": 8.9,
+    "max": 17.6,
+    "mean": 13.15,
+    "median": 13.2,
+    "std": 1.61,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "K": {
+    "min": 3.0,
+    "max": 6.6,
+    "mean": 4.23,
+    "median": 4.2,
+    "std": 0.46,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "Na": {
+    "min": 128.0,
+    "max": 156.0,
+    "mean": 141.0,
+    "median": 141.0,
+    "std": 3.81,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "WBC": {
+    "min": 3700.0,
+    "max": 18000.0,
+    "mean": 7562.05,
+    "median": 7100.0,
+    "std": 2413.74,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "Lymph": {
+    "min": 7.0,
+    "max": 60.0,
+    "mean": 32.4,
+    "median": 32.0,
+    "std": 9.97,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "Neut": {
+    "min": 32.0,
+    "max": 89.0,
+    "mean": 60.15,
+    "median": 60.0,
+    "std": 10.18,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "PLT": {
+    "min": 25.0,
+    "max": 742.0,
+    "mean": 221.49,
+    "median": 210.0,
+    "std": 60.8,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "EF-TTE": {
+    "min": 15.0,
+    "max": 60.0,
+    "mean": 47.23,
+    "median": 50.0,
+    "std": 8.93,
+    "is_binary": false,
+    "unique_vals": []
+  },
+  "Region RWMA": {
+    "min": 0.0,
+    "max": 4.0,
+    "mean": 0.62,
+    "median": 0.0,
+    "std": 1.13,
+    "is_binary": false,
+    "unique_vals": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ]
+  },
+  "VHD": {
+    "min": 0.0,
+    "max": 3.0,
+    "mean": 0.78,
+    "median": 1.0,
+    "std": 0.76,
+    "is_binary": false,
+    "unique_vals": [
+      0.0,
+      1.0,
+      2.0,
+      3.0
+    ]
+  }
+}
