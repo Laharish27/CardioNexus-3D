@@ -17,7 +17,7 @@
 
 ## 🌐 Live Web Demo
 
-> 🚀 **Live Interactive Application:** **[Launch CardioNexus 3D Web Station](https://cardionexus-3d.vercel.app)**  
+> 🚀 **Live Interactive Application:** **[Launch CardioNexus 3D Web Station](https://cardio-nexus-3-d.vercel.app/)**  
 >
 > 💡 **For Reviewers & Clinicians:** No installation or local setup required. The live application runs directly in any modern desktop or mobile browser with WebGL 2.0. *(See Cloud Deployment section below to deploy your own instance in 1 minute)*
 
